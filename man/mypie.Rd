@@ -22,3 +22,8 @@ Creates a pie chart with percentages
 \details{
 This is a helper function for creating a nice pie chart with percentages for each slice
 }
+\examples{
+slices <- c(20,18)
+lbls <- c("slice 1", "slice 2")
+mypie(slices, lbls, "mypie")
+}

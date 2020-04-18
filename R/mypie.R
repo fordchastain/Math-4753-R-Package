@@ -12,9 +12,9 @@
 #' @export
 #'
 #' @examples
-#' slices <- c(20,18,"my pie chart")
-#' lbls <- c("slice 1", "slice 2)
-#' mypie(slices, lbls)
+#' slices <- c(20,18)
+#' lbls <- c("slice 1", "slice 2")
+#' mypie(slices, lbls, "mypie")
 mypie <- function(slices, lbls, mn) {
   pct <- round(slices/sum(slices)*100)
   lbls <- paste(lbls, pct) # add percents to labels

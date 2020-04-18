@@ -26,6 +26,6 @@ This is a helper function used in Lab 12 that calculates and displays p value ar
 }
 \examples{
 set.seed(55);x1=rnorm(30,mean=25,sd=5)
-tcalc=(xbar-24)/(sd(x1)/sqrt(length(x1)))
+tcalc=(mean(x1)-24)/(sd(x1)/sqrt(length(x1)))
 mypvalue(tcalc,n=30,alpha=0.05)
 }
