@@ -49,19 +49,9 @@ You can also run the following commands to get info on each function:
 ?mypvalue
 ```
 
-#### mysample
-```
-?mysample
-```
-
 #### pareto
 ```
 ?pareto
-```
-
-#### rsq
-```
-?rsq
 ```
 
 
